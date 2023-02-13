@@ -15,10 +15,12 @@ code {
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   color: white;
-  padding: 15px;
   font-size: 2em;
+  position:absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
 }
 
 .nav a {
@@ -26,13 +28,41 @@ code {
   text-decoration: none;
 }
 
-.footer{
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
   color: white;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+ color: #111;
+}
+
+.header {
+  background-image: url("floralbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
+  height: 30rem;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.content {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }

@@ -7,7 +7,6 @@ This is the repository for my web developer portfolio, which includes my project
 ### Features
 - Full scrollable page
 - Easy navigation for each part of the page rather than different pages
-- Three different components for navigation, main content, and footer
 
 ### Built with
 - React
