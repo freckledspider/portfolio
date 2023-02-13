@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
@@ -16,7 +18,7 @@ code {
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: 2em;
+  font-size: 2rem;
   position:absolute;
   top: 0;
   left: 0;
@@ -56,7 +58,7 @@ li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 30rem;
+  height: 60rem;
   display: grid;
   place-items: center;
   color: white;
@@ -65,4 +67,8 @@ li a:hover {
 .content {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.about, .projects {
+  height: 60rem;
 }
