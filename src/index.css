@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;  
+ 
+}
+
+img {
+  border: 20px solid transparent;
+  padding: 0px;
+  border-image: url("imageborder.jpg") 50 round;
 }
 
 code {
@@ -54,7 +64,7 @@ li a:hover {
 }
 
 .header {
-  background-image: url("floralbg.jpg");
+  background-image: url("floraltransparent.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
