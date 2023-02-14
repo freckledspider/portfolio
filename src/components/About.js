@@ -1,10 +1,66 @@
+import aboutphoto from "../../src/aboutphoto.jpg"
+import freya from "../../src/freya.jpg"
+
 const About = (props) => {
     return <>
 <div id="about" className="about">
   <h2>About</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  <br/><br/>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <table>
+	<tr>
+    	<th><img src={aboutphoto} alt="Brianne Camesi" width="350" className="imgborder" />
+      </th>
+      <th>
+  I am a highly creative <b>full-stack web developer</b> with a background in the sciences, specifically biology. My boundless curiosity and desire to learn drives my passion for <b>science and technology</b>. I excel in environments that foster <b>innovation, productivity, and teamwork</b>. In my leisure time, I enjoy playing video games, engaging in artistic endeavors such as drawing and painting, exploring nature, and spending time with my Pomeranian.
+    </th>
+    </tr>
+  </table>
+  <h3>Skills</h3>
+  <table>
+	<tr>
+    	<th valign="top">
+      <th className="tableborder">
+      <b>Languages</b><br/>
+      <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>SQL</li>
+      </ul>
+      <b>Libraries and Frameworks</b><br/>
+      <ul>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>Mongoose</li>
+      <li>Django</li>
+      <li>MVC</li>
+      <li>Django</li>
+      <li>jQuery</li>
+      </ul>
+      </th>
+      <th>
+      <b>Database</b><br/>
+      <ul>
+      <li>MongoDB</li>
+      <li>PostgreSQL</li>
+      </ul>
+      <b>Other</b><br/>
+      <ul>
+      <li>RESTful Routing JSON</li>
+      <li>AJAX</li>
+      <li>DOM</li>
+      <li>Responsive Design</li>
+      <li>Wordpress</li>
+      </ul>
+      <br/>
+      And always up for<br/> learning so much more.
+      </th>
+      </th>
+      <th><img src={freya} alt="A Pomeranian named Freya" width="350" className="imgborder"/>
+      </th>
+    </tr>
+  </table>
 </div>
 </>
   };

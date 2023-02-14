@@ -13,7 +13,7 @@ body {
   font-size: 1.2rem;
 }
 
-.imgbg {
+.imgborder {
   border: 20px solid transparent;
   padding: 0px;
   border-image: url("imageborder.jpg") 50 round;
@@ -36,14 +36,14 @@ code {
   width: 100%;
 }
 
-ul {
+.navigationlist {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.navigationli {
   float: left;
 }
 
@@ -82,11 +82,51 @@ li a:hover {
   padding-right: 5rem;
 }
 
-.about, .projects {
-  height: 60rem;
+
+.about, .projects, .contact {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-weight: none;
+  font-weight: normal;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  border-bottom: 3px solid #363826;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  border-bottom: 3px solid #363826;
+  width: 50%;
+  text-align: right;
+  margin-top: 0px;
+  padding: 20px;
+  float: right;
+}
+
+th {
+  font-weight: normal;
+  line-height: 2rem;
+  text-align: left;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: square;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+
+.tableborder {
+  border-right: 3px solid #363826;
 }
