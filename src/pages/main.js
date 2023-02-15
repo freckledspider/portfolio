@@ -13,7 +13,7 @@ const Main = (props) => {
     <li className="navigationli"><Link to="https://docs.google.com/document/d/1I_atmT0EHkD7Jz5G2tXVbIPgGBlGOfOV9rOQMPNK3MU/edit?usp=sharing" target="_blank">Resume</Link></li>
     </ul>
     </div>
-      <img src={bcheader} alt="Brianne Camesi Full-Stack Web Developer" width="800"/>
+      <img src={bcheader} alt="Brianne Camesi Full-Stack Web Developer" width="800" className="headerimg"/>
     </div>
 </>
   };
