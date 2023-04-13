@@ -9,6 +9,7 @@ This is the repository for my web developer portfolio, which includes my project
 - Easy navigation for each part of the page rather than different pages
 - Anchored Links
 - Different components for each part of the page
+- Responsive mobile design
 
 ### Built with
 - React
