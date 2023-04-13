@@ -10,7 +10,8 @@ const Main = (props) => {
     <li className="navigationli"><Link to="#about">About/Skills</Link></li>
     <li className="navigationli"><Link to="#projects">Projects</Link></li>
     <li className="navigationli"><Link to="#contact">Contact</Link></li>
-    <li className="navigationli"><Link to="https://docs.google.com/document/d/1I_atmT0EHkD7Jz5G2tXVbIPgGBlGOfOV9rOQMPNK3MU/edit?usp=sharing" target="_blank">Resume</Link></li>
+    <li className="navigationli"><Link to="https://docs.google.com/document/d/1fj4MzxnzCnZ1bCR8lMlH8JYKF87fSvrqPMtRH2ZGLgM/edit?usp=sharing" target="_blank">Resume</Link></li>
+    <li className="navigationli"><Link to="https://github.com/freckledspider" target="_blank">GitHub</Link></li>
     </ul>
     </div>
       <img src={bcheader} alt="Brianne Camesi Full-Stack Web Developer" width="800" className="headerimg"/>

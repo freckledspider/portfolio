@@ -37,6 +37,7 @@ const About = (props) => {
       <li>MVC</li>
       <li>Django</li>
       <li>jQuery</li>
+      <li>Vue.js</li>
       </ul>
       </td>
       <td className="abouttd">
@@ -52,6 +53,8 @@ const About = (props) => {
       <li>DOM</li>
       <li>Responsive Design</li>
       <li>Wordpress</li>
+      <li>UI/UX Design</li>
+      <li>Graphic Design</li>
       </ul>
       <br/>
       And always up for<br/> learning so much more.
