@@ -1,16 +1,12 @@
-import { Outlet } from "react-router-dom";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
 
 function App() {
   return (
     <div className="App">
-      <Outlet />
-      <About />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Main/>} />
+      </Routes>
     </div>
   );
 }

@@ -1,22 +1,38 @@
-import { HashLink as Link } from "react-router-hash-link";
-import bcheader from "../../src/bcheader.png"
+import aboutphoto from "../../src/images/aboutphoto.jpg";
 
-const Main = (props) => {
-    return <>
-<div className="header">
-    <div className="nav">
-    <ul className="navigationlist">
-    <li className="navigationli"><Link to="#top">Home</Link></li>
-    <li className="navigationli"><Link to="#about">About/Skills</Link></li>
-    <li className="navigationli"><Link to="#projects">Projects</Link></li>
-    <li className="navigationli"><Link to="#contact">Contact</Link></li>
-    <li className="navigationli"><Link to="https://docs.google.com/document/d/1fj4MzxnzCnZ1bCR8lMlH8JYKF87fSvrqPMtRH2ZGLgM/edit?usp=sharing" target="_blank">Resume</Link></li>
-    <li className="navigationli"><Link to="https://github.com/freckledspider" target="_blank">GitHub</Link></li>
-    </ul>
+export default function Main() {
+  return (
+    <div>
+      <div className="about">
+        <div className="aboutimage">
+          <img
+            src={aboutphoto}
+            alt="Brianne Camesi"
+            width="70%"
+            className="imgborder"
+          />
+        </div>
+        <div className="abouttext">
+          <h3>Hello, my name is Bri.</h3>
+          <h2>
+            Infusing each pixel with creativity, sculpting interfaces with
+            meticulous care, and orchestrating user interactions that resonate
+            and captivate.
+          </h2>
+          <p>
+            As a frontend web developer, my passion for innovation, design, and
+            continuous learning is the cornerstone of my professional journey. I
+            thrive on exploring the latest technologies and design trends to
+            create seamless, user-centric experiences.
+          </p>
+          <p style={{textAlign: "center"}}>
+          <a href="/about"><button>
+            Learn More
+          </button></a></p>
+        </div>
+      </div>
+
+      <div className="quote">Quote?</div>
     </div>
-      <img src={bcheader} alt="Brianne Camesi Full-Stack Web Developer" width="800" className="headerimg"/>
-    </div>
-</>
-  };
-  
-  export default Main;
+  );
+}
