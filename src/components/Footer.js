@@ -3,7 +3,7 @@ export default function Footer() {
     <>
 <div className="footer">
     <div>
-        Footer text
+    © 2024 Brianne Camesi. All rights reserved.
     </div>
 </div>
     </>

@@ -36,9 +36,24 @@ a:hover {
 }
 
 .imgborder {
-  border: 20px solid transparent;
-  padding: 0px;
+  border: 1.5rem solid transparent;
+  padding: 0;
   border-image: url("../src/images/imageborder.jpg") 50 round;
+}
+
+.featuredimg {
+  width: 16rem;
+  border: 1px solid #3B393A;
+  margin: 1rem;
+}
+
+.techul {
+  list-style-type: square;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.techul li {
+  margin: 0.5rem;
 }
 
 button {
@@ -59,6 +74,16 @@ button:hover {
 
 /* ---------------------- Headers ---------------------- */
 
+h1 {
+  font-family: "Gilda Display", serif;
+  font-weight: normal;
+  font-size: 2.2rem;
+  color: #3B393A;
+  letter-spacing: -0.15rem;
+  text-align: left;
+  margin-top: 0;
+}
+
 h2 {
   font-family: "Gilda Display", serif;
   font-weight: normal;
@@ -66,6 +91,7 @@ h2 {
   color: #3B393A;
   letter-spacing: -0.15rem;
   text-align: left;
+  margin-top: 0;
 }
 
 h3 {
@@ -73,19 +99,19 @@ h3 {
   font-weight: normal;
   font-size: 1rem;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
 
 h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Gilda Display", serif;
   font-weight: normal;
-  font-size: 1.2rem;
-  letter-spacing: 0.2rem;
-  border-bottom: 3px solid #3B393A;
+  font-size: 1.8rem;
+  color: #3B393A;
+  letter-spacing: -0.15rem;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
+  margin-top: 0;
 }
 
 
@@ -130,7 +156,7 @@ h4 {
   float: left;
 }
 
-ul {
+ul .navlinks{
   line-height: 1.3rem;
   font-size: 1rem;
 }
@@ -159,8 +185,8 @@ li a:hover {
 .about {
   width: 80%;
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -179,23 +205,31 @@ li a:hover {
   background-color: #3B393A;
   color: #EAEAEA;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-family: "Ubuntu Mono", monospace;
   text-transform: uppercase;
 }
 
+.featured {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
 .footer {
-  display: inline-flex;
-  justify-content: space-between;
   color: #3B393A;
   background-color: #D5DCE4;
   width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-top: 1px solid #3B393A;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  font-family: "Ubuntu Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .projects, .contact {
