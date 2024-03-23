@@ -27,7 +27,7 @@ export default function Main() {
             thrive on exploring the latest technologies and design trends to
             create seamless, user-centric experiences.
           </p>
-          <p style={{ textAlign: "center" }}>
+          <p style={{ textAlign: "center", marginTop: "2rem" }}>
             <a href="/about">
               <button>Learn More</button>
             </a>

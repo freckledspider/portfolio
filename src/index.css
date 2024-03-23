@@ -8,6 +8,7 @@ font-family: "Ubuntu Mono", monospace;
 
 body {
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #EAEAEA;
@@ -182,6 +183,12 @@ li a:hover {
 
 /* ---------------------- Divs ---------------------- */
 
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .about {
   width: 80%;
   display: flex;
@@ -222,11 +229,10 @@ li a:hover {
   color: #3B393A;
   background-color: #D5DCE4;
   width: 100%;
+  margin-top: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-top: 1px solid #3B393A;
-  position: relative;
-  bottom: 0;
   font-family: "Ubuntu Mono", monospace;
   text-transform: uppercase;
   text-align: center;

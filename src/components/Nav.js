@@ -12,7 +12,7 @@ export default function Nav() {
                 <a href="/">Home</a>
               </li>
               <li className="navigationli">
-                <a href="/about">About</a>
+                <a href="/about">About/Skills</a>
               </li>
               <li className="navigationli">
                 <a href="/projects">Projects</a>
