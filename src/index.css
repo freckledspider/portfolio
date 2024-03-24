@@ -85,6 +85,10 @@ h1 {
   margin-top: 0;
 }
 
+.h1gray {
+  color: #EAEAEA;
+}
+
 h2 {
   font-family: "Gilda Display", serif;
   font-weight: normal;
@@ -223,6 +227,34 @@ li a:hover {
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+.skillscontainer {
+  background-color: #3B393A;
+  color: #EAEAEA;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.skills {
+  width: 80%;
+  margin: auto;
+}
+
+.skillslists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  background-color: #D5DCE4;
+  color: #3B393A;
+  padding: 0.5rem;
 }
 
 .footer {
