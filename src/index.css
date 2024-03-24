@@ -256,7 +256,7 @@ hr {
   font-family: "Ubuntu Mono", monospace;
 }
 
-.featured, .education, .projects {
+.featured, .education, .projects, .contact {
   width: 80%;
   margin: auto;
   padding-top: 3rem;
