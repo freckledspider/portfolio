@@ -19,21 +19,18 @@ body {
   font-size: 1rem;
 }
 
-a {
+.link {
   color: #3B393A;
-  text-align: center;
-  padding: 10px;
   text-decoration: none;
-  font-family: "Gilda Display", serif;
-  text-transform: uppercase;
+  font-family: "Ubuntu Mono", monospace; 
   font-size: 1rem;
-  transition: 0.5s;
+  font-weight: bold;
 }
 
-a:hover {
-  color: #646263;
-  text-shadow: #646263 1px 0 10px;
-  opacity: 1;
+.link:hover {
+  color: #3B393A;
+  background-color: #D5DCE4;
+  border: 1px solid #3B393A;
 }
 
 .imgborder {
@@ -45,7 +42,19 @@ a:hover {
 .featuredimg {
   width: 16rem;
   border: 1px solid #3B393A;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+
+.mainprojectsimg {
+  width: 17rem;
+  border: 1px solid #3B393A;
+  margin: 0.5rem;
+}
+
+.projectsimg {
+  width: 33rem;
+  border: 1px solid #3B393A;
+  margin: 0.5rem;
 }
 
 .techul {
@@ -66,6 +75,7 @@ button {
   text-transform: uppercase;
   padding: 0.5rem;
   transition: 1s;
+  margin: 0.5rem;
 }
 
 button:hover {
@@ -107,6 +117,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
+}
+
+.h3center {
+  text-align: center;
 }
 
 h4 {
@@ -231,11 +245,42 @@ hr {
   text-transform: uppercase;
 }
 
-.featured, .education {
+.note {
+  width: 100%;
+  margin: auto;
+  background-color: #3B393A;
+  color: #EAEAEA;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.featured, .education, .projects {
   width: 80%;
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+.projectcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectinfo {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+.projectimages {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
 }
 
 .skillscontainer {
@@ -277,26 +322,7 @@ hr {
   text-align: center;
 }
 
-.projects, .contact {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px;
-}
 
-.projectstd {
-  padding: 20px;
-}
-
-.projectdescription {
-  font-size: 0.9rem;
-  display: block;
-  padding: 10px;
-}
-
-.tableborder {
-  border-right: 3px solid #3B393A;
-}
 
 
 /* ---------------------- Media Queries ---------------------- */

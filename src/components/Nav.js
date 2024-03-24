@@ -25,6 +25,11 @@ export default function Nav() {
                   GitHub
                 </a>
               </li>
+              <li className="navigationli">
+                <a href="https://www.linkedin.com/in/briannecamesi/" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
         </div>

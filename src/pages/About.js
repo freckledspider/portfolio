@@ -95,6 +95,8 @@ export default function About() {
             </div>
           </div>
         </div>
+        <p>
+        <h3 className="h3center">And continuously learning more.</h3></p>
       </div>
 
       <div className="education">
