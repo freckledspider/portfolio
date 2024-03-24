@@ -117,6 +117,7 @@ h4 {
   letter-spacing: -0.15rem;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -184,6 +185,14 @@ li a:hover {
   opacity: 1;
 }
 
+hr {
+  border: 1px solid #3B393A;
+  width: 75%;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 
 /* ---------------------- Divs ---------------------- */
 
@@ -222,7 +231,7 @@ li a:hover {
   text-transform: uppercase;
 }
 
-.featured {
+.featured, .education {
   width: 80%;
   margin: auto;
   padding-top: 3rem;
@@ -249,12 +258,10 @@ li a:hover {
 }
 
 .skillsgrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
   background-color: #D5DCE4;
   color: #3B393A;
   padding: 0.5rem;
+  width: 25%;
 }
 
 .footer {
