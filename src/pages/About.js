@@ -36,7 +36,7 @@ export default function About() {
             grow as a developer.
           </p>
         </div>
-        <div className="aboutimage">
+        <div className="aboutimage" style={{textAlign: "center"}}>
           <img
             src={Freya}
             alt="Freya the pomeranian"

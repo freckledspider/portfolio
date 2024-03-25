@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div>
       <div className="about">
-        <div className="aboutimage">
+        <div className="aboutimage" style={{textAlign: "center"}}>
           <img
             src={aboutphoto}
             alt="Brianne Camesi"

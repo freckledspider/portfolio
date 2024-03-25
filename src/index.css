@@ -207,6 +207,17 @@ hr {
   margin-bottom: 3rem;
 }
 
+input, textarea {
+  background-color: #EAEAEA;
+  border: 1px solid #3B393A;
+  color: #3B393A;
+  padding: 0.5rem;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1rem;
+  margin: 0.5rem;
+  width: 90%;
+}
+
 
 /* ---------------------- Divs ---------------------- */
 
@@ -225,11 +236,7 @@ hr {
   margin-right: auto;
 }
 
-.aboutimage {
-  margin: auto;
-}
-
-.abouttext {
+.aboutimage, .abouttext {
   margin: auto;
 }
 
@@ -256,21 +263,29 @@ hr {
   font-family: "Ubuntu Mono", monospace;
 }
 
-.featured, .education, .projects, .contact {
+.featured, .education, .projects {
   width: 80%;
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
-.projectcontainer {
+.contact {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.projectcontainer, .formcontainer {
   display: flex;
   justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
 }
 
-.projectinfo {
+.projectinfo, .contactform, .contactimage {
   margin: auto;
   width: 50%;
   padding: 1rem;
