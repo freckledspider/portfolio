@@ -41,7 +41,7 @@ export default function About() {
             src={Freya}
             alt="Freya the pomeranian"
             width="70%"
-            className="imgborder"
+            className="imgborder Freya"
             style={{ float: "right" }}
           />
         </div>

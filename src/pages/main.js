@@ -57,6 +57,7 @@ export default function Main() {
           the app's capabilities.
         </p>
         <div
+        className="featuredcontent"
           style={{
             display: "flex",
             justifyContent: "space-evenly",
@@ -66,7 +67,7 @@ export default function Main() {
             marginRight: "auto",
           }}
         >
-          <div style={{ marginTop: "auto", marginBottom: "auto" }}>
+          <div className="featuredtech" style={{ marginTop: "auto", marginBottom: "auto" }}>
             <h2>Technologies Used:</h2>
             <ul className="techul">
               <li className="techli">React</li>
@@ -93,7 +94,7 @@ export default function Main() {
               </a>
             </p>
           </div>
-          <div>
+          <div className="featuredimages" style={{textAlign: "center"}}>
             <img
               className="featuredimg"
               src={Ff1}
