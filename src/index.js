@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter as Router} from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -14,6 +15,7 @@ root.render(
     <Nav />
     <App />
     <Footer />
+    <Analytics/>
     </Router>
   </React.StrictMode>
 );
