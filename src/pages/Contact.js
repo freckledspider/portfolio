@@ -55,7 +55,6 @@ const Contact = () => {
       console.error(e);
       // Display error alert
       toggleAlert("Uh oh. Something went wrong.", "danger");
-      console.log(process.env.REACT_APP_SERVICE_ID);
     } finally {
       // Re-enable form submission
       setDisabled(false);
