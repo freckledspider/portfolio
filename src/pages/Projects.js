@@ -4,6 +4,8 @@ import Ecopath1 from "../images/projects/ecopath1.png";
 import Ecopath2 from "../images/projects/ecopath2.png";
 import Everbloom from "../images/projects/everbloom.png";
 import Entolog from "../images/projects/entolog.jpeg";
+import Mmtc1 from "../images/projects/mmtc1.png";
+import Mmtc2 from "../images/projects/mmtc2.png";
 
 export default function Projects() {
   return (
@@ -61,16 +63,21 @@ export default function Projects() {
             />
           </div>
         </div>
-      </div>
-      <div className="note">
-        Note: Some of the backends on these projects might not work on account
-        of free deployment services being sunset. <br />
-        Please bare with me while I fix these. Any errors in the live demos are
-        due to deployment issues and not the project itself.
-      </div>
-      <div className="projects">
+      
+      <hr />
         <div className="projectcontainer">
-          <div className="projectimages">Images coming soon.</div>
+          <div className="projectimages">
+          <img
+              className="projectsimg"
+              src={Mmtc1}
+              alt="TOPS Covid Tracker Screenshot 1"
+            />
+            <img
+              className="projectsimg"
+              src={Mmtc2}
+              alt="TOPS Covid Tracker Screenshot 2"
+            />
+          </div>
 
           <div className="projectinfo">
             <h2>The Opportunity Project 2023 - Make My Test Count</h2>
@@ -100,8 +107,8 @@ export default function Projects() {
               >
                 <button>Github</button>
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
-                <button>Demo Coming Soon</button>
+              <a href="https://covidtracker-tops2023.vercel.app/" target="_blank" rel="noreferrer">
+                <button>Demo</button>
               </a>
             </p>
             <p>
@@ -112,7 +119,14 @@ export default function Projects() {
             </p>
           </div>
         </div>
-        <hr />
+        </div>
+        <div className="note">
+        Note: Some of the backends on these projects might not work on account
+        of some deployment services being sunset, or they may be slow to load because of free services. <br />
+        Please bare with me while I fix these. Any errors in the live demos are
+        due to deployment issues and not the project itself.
+      </div>
+      <div className="projects">
         <div className="projectcontainer">
           <div className="projectinfo">
             <h2>EcoPath</h2>
